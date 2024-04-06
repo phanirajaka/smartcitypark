@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | Cool Login form</title>
+  <link rel="stylesheet" href="styledoc.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Create an Account</h1>
+    <form id="registerForm">
+      <input type="text" placeholder="Enter username" name="username" required>
+      <input type="email" placeholder="Enter email" name="email" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <input type="password" placeholder="Confirm Password" name="confirm_password" required>
+      <button type="submit">Register</button>
+    </form>
+    <div class="login-link">
+      Already have an account? <a href="jasj.html">Login here</a>
+    </div>
+    <div id="submissionMessage" style="display: none;">Submission Complete. Redirecting to login page...</div>
+  </div>
+  <script src="register.js"></script>
+</body>
+</html>
